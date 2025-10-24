@@ -55,7 +55,7 @@ namespace POO_objetos
             Console.Write("Nuevo teléfono: ");
             Telefono = Console.ReadLine();
 
-            Console.WriteLine("\nInformación actualizada con éxito ✅");
+            Console.WriteLine("\nInformación actualizada con éxito ");
         }
     }
 }

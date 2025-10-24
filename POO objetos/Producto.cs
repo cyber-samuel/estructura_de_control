@@ -37,13 +37,13 @@ namespace POO_objetos
 
             Producto nuevoProducto = new Producto(siguienteId++, nombre, precio);
             productos.Add(nuevoProducto);
-            Console.WriteLine("✅ Producto agregado correctamente\n");
+            Console.WriteLine("Producto agregado correctamente\n");
         }
 
         // Leer
         public void MostrarProductos()
         {
-            Console.WriteLine("\n📋 Lista de productos:");
+            Console.WriteLine("\n Lista de productos:");
             if (productos.Count == 0)
             {
                 Console.WriteLine("No hay productos registrados.\n");
@@ -105,11 +105,11 @@ namespace POO_objetos
             if (producto != null)
             {
                 productos.Remove(producto);
-                Console.WriteLine("🗑️ Producto eliminado correctamente.\n");
+                Console.WriteLine(" Producto eliminado correctamente.\n");
             }
             else
             {
-                Console.WriteLine("❌ Producto no encontrado.\n");
+                Console.WriteLine(" Producto no encontrado.\n");
             }
         }
     }
